@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    
+}
+
+/* For WebKit (Chrome, Safari) */
+/* You can also use ::-webkit-scrollbar-thumb for the thumb color */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #0B0C10; /* Change this to the desired track color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #66FCF1; /* Change this to the desired thumb color */
+  }
+  
+
+header {
+    
+/* margin: -10px;*/
+    Height: 150px;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    background-color: #0B0C10;
+    /*color: #6ACFC7;*/
+    font-family:'Courier New', Courier, monospace;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #66FCF1;
+ /*margin: 15px;*/
+ font-family: 'Erica One', sans-serif;
+font-family: 'Train One', system-ui;;
+ /*border: 5px solid black;*/
+ letter-spacing: 3px;
+align-items: center;
+/*text-shadow: -1px -1px 0 white,
+1px -1px 0 white,
+-1px 1px 0 white,
+1px 1px 0 white;*/
+}
+
+#myName {
+    color: #45A29E;
+}
+
+#navBar {
+    display: flex;
+    width: auto;
+    align-items: center;
+    background-color: #45A29E;
+    margin:0;
+    height:50px;
+    
+    height: 50px;
+    
+    justify-content: space-around;
+}
+
+/*li*/.navLink {
+   
+    width: 10vw;
+    height: 50px;
+    list-style: none;
+    background-color: #0B0C10;
+    display: flex;
+    align-items: center;
+    color: #66FCF1;
+    padding: 0;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+  .navLink:hover {
+    background-color: #1F2833;
+    color: whitesmoke;
+    transform: translateY(-20px);
+    box-shadow: 0 0 10px 5px #66FCF1;
+    transform: scale(1.2);
+    transition: box-shadow 0.5s ease-in-out;
+    transition: transform 0.5s ease;
+  }
+
+#introP {
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin: 0;
+   
+}
+
+#introText {
+   background-color: #0B0C10;
+   height: 60px;
+   color: #0B0C10;
+   text-align: center;
+}
+
+#introText:hover {
+    color: whitesmoke;
+}
+
+#oddSection {
+    height: 450px;
+    /*border-bottom: 10px solid #0C1A1A;*/
+    background-color: #1F2833;
+}
+
+#evenSection1 {
+    height: 300px;
+    background-color: #0B0C10;
+}
+
+
+
+#evenSection2 {
+    height: 300px;
+    background-color: #0B0C10;*/
+}
+#evenSection3 {
+    height: 300px;
+    background-color: #0B0C10;
+}
+
+#evenSection4 {
+    height: 300px;
+    background-color: #0B0C10;
+}
+
+#imageContainer {
+    flex: 1;
+    text-align: right;
+    
+}
+
+#imageContainer:hover {
+    box-shadow: 0 0 10px 5px #66FCF1;
+    transition: box-shadow 0.5s ease-in-out;
+}
+#picture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    
+    
+}
+
+.textwImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.textContent {
+    flex: 1;
+    max-width: 60%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+    
+}
+
+/*THE SAME THING BUT FLIPPED VERSION IS BELOW*/
+
+#imageContainerREVERSE {
+    flex: 1;
+    text-align: left;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+#imageContainerREVERSE:hover {
+    box-shadow: 0 0 10px 5px #66FCF1;
+}
+#pictureREVERSE {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    
+}
+
+.textwImageREVERSE {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.textContentREVERSE {
+    flex: 1;
+    max-width: 60%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+#tcolor1 {
+    color: #66FCF1;
+    font-family: 'Erica One', sans-serif;
+font-family: 'Train One', system-ui;
+font-size: 90px;
+}
+
+#tcolor2 {
+    color:#45A29E;
+}
+
+#contactLogo {
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 100px;
+  font-family: 'Erica One', sans-serif;
+font-family: 'Train One', system-ui;
+}
+
+#bomba {
+    background-color: #0B0C10;
+}
+
